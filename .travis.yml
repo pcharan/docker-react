@@ -7,5 +7,4 @@ before_install :
         - docker build -t pcharan/docker-myreact -f Dockerfile.dev .
 
 script :
-        - docker run pcharan/docker-myreact npm run test -- -- coverage
-
+        - docker run pcharan/docker-myreact npm run test -- --coverage
