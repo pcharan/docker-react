@@ -8,3 +8,4 @@ before_install :
 
 script :
         - docker run pcharan/docker-myreact npm run test -- -- coverage
+
